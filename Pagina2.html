@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  
+    /*Colocar de los textos iniciales*/
+    .texto{
+        color: red;
+    }
+    .texto2 {
+        color: rgb(17, 0, 255);
+    }
+    /*Fuente de los txtos finales*/
+    .final{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    #inicio{
+        color:white ;
+        background-color: #fff;
+        background-color: url(nunu.jpg);
+    }
+    body{
+        width: 50%;
+        height: 20rem;
+        background-color: rgb(205, 182, 226);
+        background-image: url(perrito.jpg);
+        background-repeat: no-repeat; /*repetir la imagen*/
+        background-position: center;
+        background-attachment: fixed;
+
+    }
+   
+    .p1{
+        border-style: dotted;
+        border-width: 10px 1px 10px 1px; 
+        /*top (superior)  Right(derecha)  Bottom(base)  left(izquuierda)*/
+        border-color: #be6161;
+    }
+    .p2{
+       border-top-style: dotted;
+       border-bottom-style: dashed;
+       border-left-style: double;
+       border-right-style: solid;
+       border-top-color: aquamarine;
+       border-bottom-color: blue;
+       border-width: 10px;
+    }
+    .p3{
+        border-style: solid;
+        border-width: 5px;/*ancho del borde*/
+        border-radius: 10px ;
+        width: 30%;
+        height: 120px;
+        margin-left: 250px;
+        margin-top: 300px;
+        margin-bottom: 200px;
+        padding-left: 300px;/*izquierda*/
+    }
+    .p4{
+        border-style:  double;
+        border-width: 5px;
+    }
+    .p5{
+        border-style: groove;
+        border-width: 5px;
+    }
+    .p6{
+        border-style: ridge;
+        border-width: 5px;
+    }
+    .p7{
+        border-style: inset;
+        border-width: 5px;
+    }
+    .p8{
+        border-style: outset;
+        border-width: 5px;
+    }
+    .p9{
+        border-style: none;
+    }
+    
+</style>
+</head>
+<body>
+    <h1>
+        Introducción a inframe</h1>
+        <iframe src = "BlogPersonal.html" title="Mi BlogPersonal" style="width: 80%; height: 20rem; border: none;"></iframe>
+        |<p class = "p1 " >dotted </p>
+        <p class = "p2 ">dashed</p>
+        <p class = "p3 ">solid</p>
+        <p class = "p4">double</p>
+        <p class = "p5 ">groove</p>
+        <div class = "p6">ridge</div>
+        <p class = "p7 ">inset</p>
+        <p class = "p8 ">outset</p>
+        <p class = "p9 ">none</p>
+        <span style="border-style: solid;">Hola</span>
+        <a href="google.com" style ="border-style: solid;">google</a>
+        <img src="perrito.jpg" alt="">
+
+
+
+    
+</body>
+</html>
